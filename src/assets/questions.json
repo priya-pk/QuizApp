@@ -1,0 +1,92 @@
+[
+  {
+    "no":"1",
+    "question":"Grand Central Terminal, Park Avenue, New York is the world's",
+    "c1":"largest railway station",
+    "c2":"highest railway station",
+    "c3":"longest railway station",
+    "c4":"None of the above",
+    "ans":"A. largest railway station"
+  },
+  {
+    "no":"2",
+    "question":"Entomology is the science that studies",
+    "c1":"Behavior of human beings",
+    "c2":"Insects",
+    "c3":"The origin and history of technical and scientific terms",
+    "c4":"The formation of rocks",
+    "ans":" B. Insects"
+  },
+  {
+    "no":"3",
+    "question":"Eritrea, which became the 182nd member of the UN in 1993, is in the continent of",
+    "c1":"Asia",
+    "c2":"Africa",
+    "c3":"Europe",
+    "c4":"Australia",
+    "ans":" B. Africa"
+  },
+  {
+    "no":"4",
+    "question":"Garampani sanctuary is located at",
+    "c1":"Junagarh, Gujarat",
+    "c2":"Diphu, Assam",
+    "c3":"Kohima, Nagaland",
+    "c4":"Gangtok, Sikkim",
+    "ans":" B. Diphu, Assam"
+  },
+  {
+    "no":"5",
+    "question":"For which of the following disciplines is Nobel Prize awarded?",
+    "c1":"Physics and Chemistry",
+    "c2":"Physiology or Medicine",
+    "c3":"Literature, Peace and Economics",
+    "c4":"All of the above",
+    "ans":" D. All of the above"
+  },
+  {
+    "no":"6",
+    "question":"Hitler party which came into power in 1933 is known as",
+    "c1":"Labour Party",
+    "c2":"Nazi Party",
+    "c3":"Ku-Klux-Klan",
+    "c4":"Democratic Party",
+    "ans":" B. Nazi Party"
+  },
+  {
+    "no":"7",
+    "question":"In which year of First World War Germany declared war on Russia and France?",
+    "c1":"1914",
+    "c2":"1915",
+    "c3":"1916",
+    "c4":"1917",
+    "ans":" A. 1914"
+  },
+  {
+    "no":"8",
+    "question":"ICAO stands for",
+    "c1":"International Civil Aviation Organization",
+    "c2":"Indian Corporation of Agriculture Organization",
+    "c3":"Institute of Company of Accounts Organization",
+    "c4":"None of the above",
+    "ans":" A. International Civil Aviation Organization"
+  },
+  {
+    "no":"9",
+    "question":"India has largest deposits of ____ in the world.",
+    "c1":"gold",
+    "c2":"copper",
+    "c3":"mica",
+    "c4":"None of the above",
+    "ans":" C. mica"
+  },
+  {
+    "no":"10",
+    "question":"How many Lok Sabha seats belong to Rajasthan?",
+    "c1":"32",
+    "c2":"25",
+    "c3":"30",
+    "c4":"17",
+    "ans":" B. 25"
+  }
+]
