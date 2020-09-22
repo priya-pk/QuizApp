@@ -1,0 +1,24 @@
+.container-fluid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(135, 207, 235, 0.363);
+  height: 100vh;
+}
+.content{
+  color: #333;
+  text-align: center;
+}
+h1{
+  padding: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+button{
+  padding: 15px 50px;
+  letter-spacing: 5px;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+
+}
