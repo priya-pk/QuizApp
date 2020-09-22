@@ -2,11 +2,18 @@
   <div class="box">
     <h1>Quiz</h1>
     <div class="quest" *ngFor="let question of questions; let i of index">
-      <h3>{{question.no}}. {{question.question}}</h3>
-      <p class="ans">A. {{question.c1}} </p>
-      <p class="ans">B. {{question.c2}}</p>
-      <p class="ans">C. {{question.c3}}</p>
-      <p class="ans">D. {{question.c4}}</p>
+      <h3>{{question.no}}. {{question.question}}</h3> 
+
+        <div class="ans" *ngFor="let option of question.options">
+          <input type="radio" (click)="validate(option.optionValue,question.answer,i)" [name]="option.Value" [value]="option"> {{ option.optionText }}
+        </div>
+        <div *ngIf="correct" class="alert alert-success">
+          Correct Answer.
+        </div> 
+        <div *ngIf="wrong" class="alert alert-danger">
+          Wrong Answer.
+        </div>
+
       <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" >Answer:</button>
       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> 
@@ -14,5 +21,5 @@
       </div>
     </div>
     <!-- <div (click)="showAnswer(i)">Answer: <p [hidden]="!isAnswerShow">{{question.ans}}</p></div> -->
-  </div>
-</div>
+  <!-- </div>
+</div> -->

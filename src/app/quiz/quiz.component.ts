@@ -14,6 +14,8 @@ export class QuizComponent implements OnInit {
   seconds:number;
   timer;
   qnProgress:number;
+  correct : boolean;
+  wrong: boolean;
 
   constructor(private _quest: QuestionsService) { }
 
@@ -36,5 +38,17 @@ export class QuizComponent implements OnInit {
       this.seconds++;
     },1000);
   }
-
+  validate(value,answer,i){
+    this.correct = false;
+    this.wrong = false;
+    console.log(answer)
+    if(value == answer){
+     this.correct = true;
+     console.log('Correct');
+    }
+    else{
+      this.wrong = true;
+      console.log('wrong');
+    }
+  }
 }

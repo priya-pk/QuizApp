@@ -1,9 +1,10 @@
+import { Option } from './option.model';
+
 export class Question {
-  no: string;
+  no: String;
   question: String;
-  c1: String;
-  c2: String;
-  c3: String;
-  c4: String;
+  options: Option[];
   ans: String;
+  answer: String;
+  selectedOption: String;
 }
