@@ -1,12 +1,18 @@
 <div class="container-fluid">
+
+  <div class="card" *ngIf="questions">
+
+  </div>
+
+
   <div class="box">
     <h1>Quiz</h1>
     <div class="quest" *ngFor="let question of questions; let i of index">
       <h3>{{question.no}}. {{question.question}}</h3>
-      <p>A. {{question.c1}} </p>
-      <p>B. {{question.c2}}</p>
-      <p>C. {{question.c3}}</p>
-      <p>D. {{question.c4}}</p>
+      <p class="ans">A. {{question.c1}} </p>
+      <p class="ans">B. {{question.c2}}</p>
+      <p class="ans">C. {{question.c3}}</p>
+      <p class="ans">D. {{question.c4}}</p>
       <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" >Answer:</button>
       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> 

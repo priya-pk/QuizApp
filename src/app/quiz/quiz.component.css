@@ -22,3 +22,11 @@ h1{
   border: 2px solid #333;
   border-radius: 10px;
 }
+.ans{
+  padding: 10px;
+}
+.ans:hover {
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+}
