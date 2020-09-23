@@ -51,4 +51,15 @@ export class QuizComponent implements OnInit {
       console.log('wrong');
     }
   }
+  // onSubmit(){
+     
+  // }
+  // answer(q,i){
+  //   console.log(q.answer,q.selectedOption,i)
+
+  // }
+  // selected(ans:string){
+  //   console.log(ans)
+  //    qtn.selectedOption = ans;
+  // }
 }

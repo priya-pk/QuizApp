@@ -7,19 +7,35 @@
         <div class="ans" *ngFor="let option of question.options">
           <input type="radio" (click)="validate(option.optionValue,question.answer,i)" [name]="option.Value" [value]="option"> {{ option.optionText }}
         </div>
-        <!-- <div *ngIf="correct" class="alert alert-success">
+        <div *ngIf="correct" class="alert alert-success">
           Correct Answer.
         </div> 
         <div *ngIf="wrong" class="alert alert-danger">
           Wrong Answer.
-        </div> -->
+        </div> 
 
-      <div class="dropdown">
+    <!-- <form class="form" (ngSubmit)="onSubmit()">
+      <div class="form-check" *ngFor="let question of questions; let i of index">
+        <h3>{{question.no}}. {{question.question}}</h3> 
+        <ul class="list-group " *ngFor="let option of question.options">
+        
+            <li class="list-group-item m-2 ans" (change)="selected($event.value)" (click)="answer(question,i)">{{ option.optionValue }}. {{ option.optionText }}</li>
+        </ul>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-block">Submit</button> -->
+
+
+ 
+
+      <!-- <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" >Answer:</button>
       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> 
         <p>{{question.ans}}</p>
       </div>
-    </div>
+      </div>
+    </div> -->
     <!-- <div (click)="showAnswer(i)">Answer: <p [hidden]="!isAnswerShow">{{question.ans}}</p></div> -->
+  <!-- </form> -->
   </div>
 </div>
