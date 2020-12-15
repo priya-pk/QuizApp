@@ -15,7 +15,6 @@ export class HomeComponent implements OnInit {
 
   quiz(){
     this.router.navigate(['quiz'])
-    console.log("hello");
   }
 
 }
